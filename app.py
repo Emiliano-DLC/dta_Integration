@@ -15,3 +15,7 @@ def home():
 @app.route("/querySH")
 def qs():
     return render_template("./queryPage.html")
+
+@app.route("/sergioQuery")
+def sergioQuery():
+    return render_template("./sergioQuery.html")
