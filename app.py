@@ -17,5 +17,9 @@ def qs():
     return render_template("./queryPage.html")
 
 @app.route("/ConQue")
-def connor():
+def con():
     return render_template("./ConQuery.html")
+
+@app.route("/SergQue")
+def serg():
+    return render_template("./SergioQuery.html")
