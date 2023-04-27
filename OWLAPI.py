@@ -4,13 +4,15 @@ import pandas as pd
 df = pd.read_json("dataset.csv-WSP2WS7.json")
 arr = df.values.T.tolist()
 
+#Custom URI
 onto = get_ontology("http://utepdataintegration.org/team3_test")
 
+#Entities
 class Student(Thing):
     namespace = onto
 
 
-#Is what the user 
+#What valued does the user has
 class Marital_status(DataProperty):
     namespace = onto
     domain = [Student]
@@ -73,7 +75,7 @@ class Target(DataProperty):
 
 j = 1
 
-for i in range(0, 100):
+for i in range(0, 50):
     individual = Student("individual_"+ str(j))
     individual.Marital_status.append(arr[0][i])
     individual.Course.append(arr[3][i])

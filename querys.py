@@ -17,12 +17,9 @@ WHERE {
 """
 
 results = onto.world.sparql(query)
+#print(results)
 for r in results:
+    #print(r)
     for i in r:
-        print(i)
+      print(i)
 
-
-'''
-  ?student my_owl:Target ?target .
-  Filter (?target = "Dropout")
-'''

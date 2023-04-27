@@ -9,63 +9,63 @@
 <owl:Ontology rdf:about="http://utepdataintegration.org/team3_test"/>
 
 <owl:DatatypeProperty rdf:about="#Marital_status">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Course">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Nacionality">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Mother_qualification">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Father_qualification">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Mother_occupation">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Father_occupation">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Displaced">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Gender">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Scholarship_holder">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#International">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Target">
-  <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#Student"/>
 </owl:DatatypeProperty>
 
 <owl:Class rdf:about="#Student">
@@ -74,1602 +74,802 @@
 
 <Student rdf:about="#individual_1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Course>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_qualification>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
   <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
   <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Course>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Marital_status>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Course>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Marital_status>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_7">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_8">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Nacionality>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_10">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_11">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_12">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_13">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_14">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
   <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
   <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_15">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Course>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_16">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_17">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
 </Student>
 
 <Student rdf:about="#individual_18">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_19">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_20">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Course>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
 </Student>
 
 <Student rdf:about="#individual_21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
   <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
   <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Course>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_22">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
 </Student>
 
 <Student rdf:about="#individual_23">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_24">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
   <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_25">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_26">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
 </Student>
 
 <Student rdf:about="#individual_27">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_28">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
 </Student>
 
 <Student rdf:about="#individual_29">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_30">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
 </Student>
 
 <Student rdf:about="#individual_31">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Course>
   <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_qualification>
   <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_qualification>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
 </Student>
 
 <Student rdf:about="#individual_32">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Course>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Father_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Mother_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_33">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
   <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
   <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
 </Student>
 
 <Student rdf:about="#individual_34">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Course>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_35">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_qualification>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_36">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
   <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
   <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
   <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_37">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_38">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_39">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Marital_status>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_40">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Course>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</International>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Nacionality>
   <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_qualification>
   <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_qualification>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Course>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_41">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
   <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
   <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_42">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_43">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_44">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_45">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 <Student rdf:about="#individual_46">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
 </Student>
 
 <Student rdf:about="#individual_47">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
   <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_48">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
   <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
   <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_49">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
   <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
   <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
   <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
+  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
+  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Course>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
+  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
 </Student>
 
 <Student rdf:about="#individual_50">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
+  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
+  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
   <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
   <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
   <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
   <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_51">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_52">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_53">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_54">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_55">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_56">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_57">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_58">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_59">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_60">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_61">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_62">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_63">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_64">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_65">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_66">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_67">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_68">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_69">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_70">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_71">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_72">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_73">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_74">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_75">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_76">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_77">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_78">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_79">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_80">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_81">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_82">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_83">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_84">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_85">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_86">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_87">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_88">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_89">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_90">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_91">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_92">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_93">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_94">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
-</Student>
-
-<Student rdf:about="#individual_95">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_96">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_97">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_98">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graduate</Target>
-</Student>
-
-<Student rdf:about="#individual_99">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enrolled</Target>
-</Student>
-
-<Student rdf:about="#individual_100">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Marital_status rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Marital_status>
-  <Course rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Course>
-  <Nacionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Nacionality>
-  <Mother_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_qualification>
-  <Father_qualification rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_qualification>
-  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
-  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
-  <Displaced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Displaced>
-  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Gender>
-  <Scholarship_holder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Scholarship_holder>
-  <International rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</International>
-  <Target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropout</Target>
 </Student>
 
 
