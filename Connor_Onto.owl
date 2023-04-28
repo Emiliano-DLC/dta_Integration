@@ -8,31 +8,6 @@
 
 <owl:Ontology rdf:about="http://topicsindatascience.org/team3_ontology"/>
 
-<owl:DatatypeProperty rdf:about="#Marital_status">
-  <rdfs:domain rdf:resource="#Student"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#Course">
-  <rdfs:domain rdf:resource="#Student"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#Nacionality">
-  <rdfs:domain rdf:resource="#Student"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#Mother_qualification">
-  <rdfs:domain rdf:resource="#Student"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#Father_qualification">
-  <rdfs:domain rdf:resource="#Student"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-</owl:DatatypeProperty>
-
 <owl:DatatypeProperty rdf:about="#Mother_occupation">
   <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -43,29 +18,9 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </owl:DatatypeProperty>
 
-<owl:DatatypeProperty rdf:about="#Displaced">
-  <rdfs:domain rdf:resource="#Student"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-</owl:DatatypeProperty>
-
 <owl:DatatypeProperty rdf:about="#Gender">
   <rdfs:domain rdf:resource="#Student"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#Scholarship_holder">
-  <rdfs:domain rdf:resource="#Student"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#International">
-  <rdfs:domain rdf:resource="#Student"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#Target">
-  <rdfs:domain rdf:resource="#Student"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#Grade">
@@ -980,6 +935,411 @@
   <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
   <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
   <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</CumGpa>
+</Student>
+
+<Student rdf:about="#Student101">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</CumGpa>
+</Student>
+
+<Student rdf:about="#Student102">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</CumGpa>
+</Student>
+
+<Student rdf:about="#Student103">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</CumGpa>
+</Student>
+
+<Student rdf:about="#Student104">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</CumGpa>
+</Student>
+
+<Student rdf:about="#Student105">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</CumGpa>
+</Student>
+
+<Student rdf:about="#Student106">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</CumGpa>
+</Student>
+
+<Student rdf:about="#Student107">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</CumGpa>
+</Student>
+
+<Student rdf:about="#Student108">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</CumGpa>
+</Student>
+
+<Student rdf:about="#Student109">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</CumGpa>
+</Student>
+
+<Student rdf:about="#Student110">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</CumGpa>
+</Student>
+
+<Student rdf:about="#Student111">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</CumGpa>
+</Student>
+
+<Student rdf:about="#Student112">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</CumGpa>
+</Student>
+
+<Student rdf:about="#Student113">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</CumGpa>
+</Student>
+
+<Student rdf:about="#Student114">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student115">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</CumGpa>
+</Student>
+
+<Student rdf:about="#Student116">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student117">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student118">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student119">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student120">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</CumGpa>
+</Student>
+
+<Student rdf:about="#Student121">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student122">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CumGpa>
+</Student>
+
+<Student rdf:about="#Student123">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</CumGpa>
+</Student>
+
+<Student rdf:about="#Student124">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student125">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</CumGpa>
+</Student>
+
+<Student rdf:about="#Student126">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</CumGpa>
+</Student>
+
+<Student rdf:about="#Student127">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</CumGpa>
+</Student>
+
+<Student rdf:about="#Student128">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student129">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CumGpa>
+</Student>
+
+<Student rdf:about="#Student130">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</CumGpa>
+</Student>
+
+<Student rdf:about="#Student131">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student132">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</CumGpa>
+</Student>
+
+<Student rdf:about="#Student133">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</CumGpa>
+</Student>
+
+<Student rdf:about="#Student134">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</CumGpa>
+</Student>
+
+<Student rdf:about="#Student135">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student136">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</CumGpa>
+</Student>
+
+<Student rdf:about="#Student137">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CumGpa>
+</Student>
+
+<Student rdf:about="#Student138">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</CumGpa>
+</Student>
+
+<Student rdf:about="#Student139">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CumGpa>
+</Student>
+
+<Student rdf:about="#Student140">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CumGpa>
+</Student>
+
+<Student rdf:about="#Student141">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</CumGpa>
+</Student>
+
+<Student rdf:about="#Student142">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</CumGpa>
+</Student>
+
+<Student rdf:about="#Student143">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CumGpa>
+</Student>
+
+<Student rdf:about="#Student144">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</CumGpa>
+</Student>
+
+<Student rdf:about="#Student145">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Gender>
+  <Father_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Father_occupation>
+  <Mother_occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Mother_occupation>
+  <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Grade>
+  <CumGpa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</CumGpa>
 </Student>
 
 

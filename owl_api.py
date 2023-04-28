@@ -55,4 +55,4 @@ for i in range(0,145):
 print(individual.Gender)
 
  
-onto.save(file="Connor_Onto")
+onto.save(file="Connor_Onto.owl")
