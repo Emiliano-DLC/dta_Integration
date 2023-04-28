@@ -1,8 +1,11 @@
 from owlready2 import *
 import pandas as pd
 
-df = pd.read_json("dataset.json")
+df = pd.read_csv("finalCSV.csv")
+df["GRADE"] = df["GRADE"].astype(int)
+
 arr = df.values.T.tolist()
+print(df)
 
 #Custom URI
 onto = get_ontology("http://utepdataintegration.org/team3_test")
@@ -13,79 +16,74 @@ class Student(Thing):
 
 
 #What valued does the user has
-class Marital_status(DataProperty):
+class MOTHER_JOB(DataProperty):
     namespace = onto
     domain = [Student]
     range = [int]
     
-class Course(DataProperty):
+class FATHER_JOB(DataProperty):
     namespace = onto
     domain = [Student]
     range = [int]
     
-class Nacionality(DataProperty):
+class GENDER(DataProperty):
     namespace = onto
     domain = [Student]
     range = [int]
     
-class Mother_qualification(DataProperty):
+class GRADE(DataProperty):
     namespace = onto
     domain = [Student]
     range = [int]
     
-class Father_qualification(DataProperty):
+class Pstatus(DataProperty):
     namespace = onto
     domain = [Student]
     range = [int]
     
-class Mother_occupation(DataProperty):
+class STUDENTID(DataProperty):
     namespace = onto
     domain = [Student]
     range = [int]
     
-class Father_occupation(DataProperty):
-    namespace = onto
-    domain = [Student]
-    range = [int]
-    
-class Displaced(DataProperty):
-    namespace = onto
-    domain = [Student]
-    range = [int]
-    
-class Gender(DataProperty):
-    namespace = onto
-    domain = [Student]
-    range = [int]
-    
-class Scholarship_holder(DataProperty):
-    namespace = onto
-    domain = [Student]
-    range = [int]
-    
-class International(DataProperty):
-    namespace = onto
-    domain = [Student]
-    range = [int]
-    
-    
-class Target(DataProperty):
-    namespace = onto
-    domain = [Student]
-    range = [str]
-
-class FirstSemGrade(DataProperty):
+class CUML_GPA(DataProperty):
     namespace = onto
     domain = [Student]
     range = [int]
 
-class SecSemGrade(DataProperty):
+class school(DataProperty):
     namespace = onto
     domain = [Student]
     range = [int]
+
+    
+class Medu(DataProperty):
+    namespace = onto
+    domain = [Student]
+    range = [int]
+
+class Fedu(DataProperty):
+    namespace = onto
+    domain = [Student]
+    range = [int]
+    
 
 j = 1
 
+for i in range(0, 20):
+    individual = Student("individual_"+ str(j))
+    individual.MOTHER_JOB.append(arr[1][i])
+    individual.FATHER_JOB.append(arr[2][i])
+    individual.GENDER.append(arr[3][i])
+    individual.GRADE.append(arr[6][i])
+    j = j+1
+    print("----")
+
+
+onto.save(file="finaldataset.owl")
+
+
+"""
 for i in range(0, 50):
     individual = Student("individual_"+ str(j))
     individual.Marital_status.append(arr[0][i])
@@ -106,3 +104,4 @@ for i in range(0, 50):
 
 
 onto.save(file="mynew.owl")
+"""
