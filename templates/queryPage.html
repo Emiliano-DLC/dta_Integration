@@ -47,25 +47,26 @@
         </form>
       </div>
       <div class="container">
-        <h3>Which student X has avgGpa Y</h3>
-        <form>
-            <div class="form-group">
-              <label for="sel1">X:</label>
-              <select class="form-control" id="sel1">
-                <option>Male</option>
-                <option>Female</option>
-              </select>
-            </div>
-            <div class="form-group">
-                <label for="sel1">Y:</label>
-                <select class="form-control" id="sel1">
-                  <option>Less than 2.5</option>
-                  <option>2.5 - 3.00</option>
-                  <option>3.00 - 3.5</option>
-                  <option>Greater than 3.5</option>
-                </select>
-              </div>
-            <button type="submit" class="btn btn-default">Submit</button>
+        <h3>Which student X has Grade AVG Y</h3>
+        <form action="{{ url_for('query') }}" method="POST">
+          <div class="form-group">
+            <label for="sel1">X:</label>
+            <select class="form-control" id="x" name="x">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel2">Y:</label>
+            <select class="form-control" id="y" name="y">
+              <option>F</option>
+              <option>D</option>
+              <option>C</option>
+              <option>B</option>
+              <option>A</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
         </form>
       </div>
       

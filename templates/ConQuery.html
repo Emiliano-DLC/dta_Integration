@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
     <div class="container">
-        <h3>Which student X has avgGpa Y</h3>
+        <h3>Which student X has Grade AVG Y</h3>
         <form action="{{ url_for('query') }}" method="POST">
           <div class="form-group">
             <label for="sel1">X:</label>
@@ -26,11 +26,11 @@
           <div class="form-group">
             <label for="sel2">Y:</label>
             <select class="form-control" id="y" name="y">
-              <option>Less than 2.0</option>
-              <option>2.00-2.49</option>
-              <option>2.5-2.99</option>
-              <option>3.00-3.49</option>
-              <option>Greater than 3.5</option>
+              <option>F</option>
+              <option>D</option>
+              <option>C</option>
+              <option>B</option>
+              <option>A</option>
             </select>
           </div>
           <button type="submit" class="btn btn-default">Submit</button>

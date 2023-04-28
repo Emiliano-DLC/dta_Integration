@@ -13,7 +13,7 @@ app = Flask(__name__)
 # Define a namespace for your ontology
 #MY_ONTOLOGY_NS = Namespace("http://topicsindatascience.org/team3_ontology")
 
-onto = get_ontology("Connor_Onto.owl").load()
+onto = get_ontology("finaldataset.owl").load()
 
 CORS(app)
 
@@ -36,7 +36,7 @@ def serg():
 @app.route('/query', methods=['GET', 'POST'])
 def query():
     gender_map = {"Male": "2", "Female": "1"}
-    gpa_map = {"Less than 2.0": "1", "2.00-2.49": "2", "2.5-2.99": "3", "3.00-3.49": "4", "Greater than 3.5": "5"}
+    gpa_map = {"F": ["0", "1"], "D": "2", "C": "3", "B": "4", "A": "5"}
 
     # Get the values of X and Y from the form
     x = gender_map.get(request.form.get('x'))
@@ -55,8 +55,8 @@ def query():
         SELECT ?student ?gender ?gpa
         WHERE {
         ?student rdf:type onto:Student .
-        ?student onto:Gender ?gender .
-        ?student onto:CumGpa ?gpa .
+        ?student onto:GENDER ?gender .
+        ?student onto:GRADE ?gpa .
         FILTER(?gender = """ + x + """ && ?gpa >= """ + y + """)
         }
         """ 
@@ -71,15 +71,16 @@ def query():
     result_list = []
     #print(results)
     for row in results:
-        row = [str(cell).replace("Connor_Onto.", '') for cell in row]
+        row = [str(cell).replace("finaldataset.", '') for cell in row]
          
         if(row[1] == '1'): row[1] = "Female"
         else: row[1] = "Male"
-        if (row[2] == "1"): row[2] = "Less than 2.0"
-        elif(row[2] == '2'): row[2] = "2.00-2.49"
-        elif(row[2] == '3'): row[2] = "2.5-2.99"
-        elif(row[2] == '4'): row[2] = "3.00-3.49"
-        else: row[2] = "Greater than 3.5"
+        if (row[2] == "0"): row[2] = "Grade AVG: F"
+        elif(row[2] == '1'): row[2] = "Grade AVG: F"
+        elif(row[2] == '2'): row[2] = "Grade AVG: D"
+        elif(row[2] == '3'): row[2] = "Grade AVG: C"
+        elif(row[2] == '4'): row[2] = "Grade AVG: B"
+        else: row[2] = "Grade AVG: A"
         result_list.append(row)
         
     
