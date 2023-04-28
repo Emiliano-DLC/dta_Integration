@@ -3,8 +3,11 @@ from flask_cors import CORS
 from owlready2 import *
 import pandas as pd
 
+from emilianoQuery import emilianoQuery
+
 
 app = Flask(__name__)
+app.register_blueprint(emilianoQuery)
 
 
 # Load the ontology into an rdflib Graph object
