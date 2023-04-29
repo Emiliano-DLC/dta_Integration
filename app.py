@@ -30,9 +30,6 @@ def home():
 
 @app.route("/querySH")
 def qs():
-<<<<<<< HEAD
-    return render_template("./queryPage.html")
-=======
     return render_template("./queryPage.html")
 
 @app.route("/ConQue")
@@ -98,4 +95,3 @@ def query():
     
     # Render the results in a template using Jinja2
     return render_template('results.html', results=result_list)
->>>>>>> emi_question
