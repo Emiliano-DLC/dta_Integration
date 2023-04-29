@@ -5,11 +5,13 @@ import pandas as pd
 
 from emilianoQuery import emilianoQuery
 from alexQuery import alexQuery
+from sergQuery import sergQuery
 
 
 app = Flask(__name__)
 app.register_blueprint(emilianoQuery)
 app.register_blueprint(alexQuery)
+app.register_blueprint(sergQuery)
 
 
 # Load the ontology into an rdflib Graph object
