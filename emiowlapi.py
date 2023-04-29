@@ -74,7 +74,7 @@ class Target(DataProperty):
     range = [str]
 
 j = 1
-
+'''
 for i in range(0, 50):
     individual = Student("individual_"+ str(j))
     individual.Marital_status.append(arr[0][i])
@@ -92,4 +92,4 @@ for i in range(0, 50):
     j = j+1
 
 
-onto.save(file="mynew.owl")
+onto.save(file="mynew.owl")'''
