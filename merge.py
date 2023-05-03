@@ -2,6 +2,7 @@ from owlready2 import *
 import pandas as pd
 import random
 
+#Created by connor and emi to merge the datasets and create the owl
 onto = get_ontology("http://topicsindatascience.org/team3_ontology")
 
 emi = pd.read_csv("dataset.csv")
