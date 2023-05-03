@@ -40,8 +40,10 @@ def con():
 def serg():
     return render_template("./SergioQuery.html")
 
+
 @app.route('/query', methods=['GET', 'POST'])
 def query():
+    #Connor Query backend
     gender_map = {"Male": "2", "Female": "1"}
     gpa_map = {"F": ["0", "1"], "D": "2", "C": "3", "B": "4", "A": "5"}
 
@@ -95,3 +97,4 @@ def query():
     
     # Render the results in a template using Jinja2
     return render_template('results.html', results=result_list)
+
